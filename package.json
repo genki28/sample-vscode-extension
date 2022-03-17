@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:smaple-vscode-extension.helloWorld"
+    "onCommand:smaple-vscode-extension.convertAllTextToSample"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "smaple-vscode-extension.helloWorld",
-        "title": "Hello World"
+        "command": "smaple-vscode-extension.convertAllTextToSample",
+        "title": "全てのテキストを sample へ変換します"
       }
     ]
   },
